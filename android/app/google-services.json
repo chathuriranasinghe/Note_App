@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "464837912817",
+    "project_id": "notekeeper-cd08a",
+    "storage_bucket": "notekeeper-cd08a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:464837912817:android:830f847e5ecb4b53eb6150",
+        "android_client_info": {
+          "package_name": "com.example.note_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDv31DejXgFVtG8i3lbR4ouJBhItcCSYoU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:464837912817:android:bf8980ee513e88eeeb6150",
+        "android_client_info": {
+          "package_name": "lk.chathu.note_keeper"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDv31DejXgFVtG8i3lbR4ouJBhItcCSYoU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
