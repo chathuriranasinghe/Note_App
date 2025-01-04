@@ -19,7 +19,7 @@ class NotePage extends StatelessWidget {
         : 'Unknown Date';
 
     return Scaffold(
-      backgroundColor: Colors.amber.shade50,
+      backgroundColor: Colors.white,
       body: Padding(
         padding: EdgeInsets.symmetric(vertical: 20, horizontal: 18),
         child: SafeArea(

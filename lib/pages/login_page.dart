@@ -25,7 +25,7 @@ class _LoginPageState extends State<LoginPage> {
           Container(
             decoration: BoxDecoration(
                 image: DecorationImage(
-              image: AssetImage("assets/login_page.jpg"),
+              image: AssetImage("assets/login_image.jpg"),
               fit: BoxFit.cover,
             )),
           ),
@@ -70,13 +70,13 @@ class _LoginPageState extends State<LoginPage> {
                       }
                     },
                     style: ElevatedButton.styleFrom(
-                        backgroundColor: Colors.amber.shade100),
+                        backgroundColor: Colors.lightBlue.shade100),
                     child: Text(
                       "Log In",
                       style: TextStyle(
                           fontSize: 18,
                           fontWeight: FontWeight.bold,
-                          color: Colors.black),
+                          color: Colors.blue.shade900),
                     ),
                   ),
                   Text(

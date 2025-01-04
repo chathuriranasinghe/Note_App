@@ -25,7 +25,7 @@ class _RegistrationPageState extends State<RegistrationPage> {
             decoration: BoxDecoration(
               image: DecorationImage(
                   image: AssetImage(
-                    "assets/registration_image.jpg",
+                    "assets/registration_page.jpg",
                   ),
                   fit: BoxFit.cover),
             ),
@@ -67,13 +67,13 @@ class _RegistrationPageState extends State<RegistrationPage> {
                       }
                     },
                     style: ElevatedButton.styleFrom(
-                        backgroundColor: Colors.amber.shade100),
+                        backgroundColor: Colors.lightBlue.shade100),
                     child: Text(
                       "Register",
                       style: TextStyle(
                           fontSize: 18,
                           fontWeight: FontWeight.bold,
-                          color: Colors.black),
+                          color: Colors.blue.shade900),
                     ),
                   ),
                   Text(

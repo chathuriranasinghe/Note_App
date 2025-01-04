@@ -11,14 +11,16 @@ class RoundButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       decoration: BoxDecoration(
-          color: Colors.amber.shade100,
+          color: Colors.lightBlue.shade200,
           borderRadius: BorderRadius.all(Radius.circular(10))),
       child: TextButton(
         onPressed: onPressed,
         child: Text(
           text,
           style: TextStyle(
-              fontSize: 20, color: Colors.black, fontWeight: FontWeight.bold),
+              fontSize: 20,
+              color: Colors.blue.shade900,
+              fontWeight: FontWeight.bold),
         ),
       ),
     );

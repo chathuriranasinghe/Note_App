@@ -24,12 +24,12 @@ class HomePage extends StatelessWidget {
     }
 
     return Scaffold(
-      backgroundColor: Colors.amber.shade50,
+      backgroundColor: Colors.white,
       floatingActionButton: SizedBox(
         height: 55,
         width: 55,
         child: FloatingActionButton(
-          backgroundColor: Colors.amber.shade100,
+          backgroundColor: Colors.blue.shade100,
           onPressed: () {
             Navigator.push(
                 context, MaterialPageRoute(builder: (context) => AddNote()));
@@ -39,7 +39,7 @@ class HomePage extends StatelessWidget {
       ),
       appBar: AppBar(
         elevation: 0,
-        backgroundColor: Colors.amber.shade400,
+        backgroundColor: Colors.blue.shade400,
         title: Padding(
           padding: EdgeInsets.only(top: 15, bottom: 12),
           child: Row(

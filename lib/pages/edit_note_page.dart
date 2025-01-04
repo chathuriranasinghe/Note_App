@@ -18,7 +18,7 @@ class _EditNoteState extends State<EditNote> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.amber.shade50,
+      backgroundColor: Colors.blue.shade50,
       body: Padding(
         padding: EdgeInsets.symmetric(vertical: 12, horizontal: 8),
         child: SafeArea(

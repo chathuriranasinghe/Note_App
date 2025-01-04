@@ -55,7 +55,7 @@ class _WelcomePageState extends State<WelcomePage> {
                   ),
                 ),
                 Image.asset(
-                  "assets/welcome_image.jpg",
+                  "assets/welcome_page.png",
                   width: 300,
                   height: 350,
                 ),
